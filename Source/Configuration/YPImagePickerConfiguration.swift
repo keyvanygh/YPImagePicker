@@ -190,6 +190,9 @@ public struct YPConfigLibrary {
 	/// Minimum width, to prevent selectiong too high images. Have sense if onlySquare is true and the image is portrait.
     public var minWidthForItem: CGFloat?
     
+    /// Minimum height, to prevent selectiong too high images. Have sense if onlySquare is true and the image is landscape.
+    public var minHeightForItem: CGFloat?
+    
     /// Choose what media types are available in the library. Defaults to `.photo`
     public var mediaType = YPlibraryMediaType.photo
 
